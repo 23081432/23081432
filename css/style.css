@@ -191,8 +191,12 @@ nav {
     border-radius: 5px;
 }
 
+.course_expand {
+   transition: all .2s ease-in-out;
+}
+
 .course_expand:hover {
-    transition: scale 0.5s;
+    transform: scale(1);
     scale: 1.1;
     max-width: 100%;
     border-radius: 5px;
